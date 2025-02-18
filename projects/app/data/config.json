@@ -1,0 +1,117 @@
+{
+  "SystemParams": {
+    "vectorMaxProcess": 15,
+    "qaMaxProcess": 15,
+    "pgHNSWEfSearch ": 40
+  },
+  "ChatModels": [
+    {
+      "model": "gpt-3.5-turbo",
+      "name": "GPT35-4k",
+      "price": 0,
+      "maxToken": 4000,
+      "quoteMaxToken": 2000,
+      "maxTemperature": 1.2,
+      "censor": false,
+      "defaultSystemChatPrompt": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-16k",
+      "name": "GPT35-16k",
+      "maxToken": 16000,
+      "price": 0,
+      "quoteMaxToken": 8000,
+      "maxTemperature": 1.2,
+      "censor": false,
+      "defaultSystemChatPrompt": ""
+    },
+    {
+      "model": "gpt-4",
+      "name": "GPT4-8k",
+      "maxToken": 8000,
+      "price": 0,
+      "quoteMaxToken": 4000,
+      "maxTemperature": 1.2,
+      "censor": false,
+      "defaultSystemChatPrompt": ""
+    },
+    {
+      "model": "chatglm2",
+      "name": "chatglm2",
+      "contextMaxToken": 8000,
+      "quoteMaxToken": 4000,
+      "maxTemperature": 1.2,
+      "price": 0,
+      "defaultSystem": ""
+    },
+    {
+      "model": "SparkDesk",
+      "name": "SparkDesk",
+      "contextMaxToken": 8000,
+      "quoteMaxToken": 4000,
+      "maxTemperature": 1.2,
+      "price": 0,
+      "defaultSystem": ""
+    }
+  ],
+  "QAModels": [
+    {
+      "model": "gpt-3.5-turbo-16k",
+      "name": "GPT35-16k",
+      "maxToken": 16000,
+      "price": 0
+    }
+  ],
+  "CQModels": [
+    {
+      "model": "gpt-3.5-turbo-16k",
+      "name": "GPT35-16k",
+      "maxToken": 16000,
+      "price": 0,
+      "functionCall": true,
+      "functionPrompt": ""
+    },
+    {
+      "model": "gpt-4",
+      "name": "GPT4-8k",
+      "maxToken": 8000,
+      "price": 0,
+      "functionCall": true,
+      "functionPrompt": ""
+    }
+  ],
+  "ExtractModels": [
+    {
+      "model": "gpt-3.5-turbo-16k",
+      "name": "GPT35-16k",
+      "maxToken": 16000,
+      "price": 0,
+      "functionCall": true,
+      "functionPrompt": ""
+    }
+  ],
+  "QGModels": [
+    {
+      "model": "gpt-3.5-turbo",
+      "name": "GPT35-4K",
+      "maxToken": 4000,
+      "price": 0
+    }
+  ],
+  "VectorModels": [
+    {
+      "model": "text-embedding-ada-002",
+      "name": "Embedding-2",
+      "price": 0.2,
+      "defaultToken": 700,
+      "maxToken": 3000
+    },
+    {
+      "model": "m3e-large",
+      "name": "M3E（测试使用）",
+      "price": 0,
+      "defaultToken": 500,
+      "maxToken": 3000
+    }
+  ]
+}
