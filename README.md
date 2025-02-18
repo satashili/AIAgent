@@ -1,7 +1,7 @@
 
-# AIAgent
+# SHAREAI
 
-AIAgent is a knowledge-based QA system powered by LLM. It provides out-of-the-box data processing and model invocation capabilities, along with visual workflow orchestration through Flow.
+SHAREAI is a knowledge-based QA system powered by LLM. It provides out-of-the-box data processing and model invocation capabilities, along with visual workflow orchestration through Flow.
 
 ## Features
 

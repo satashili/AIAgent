@@ -51,7 +51,7 @@ const defaultFeConfigs: FeConfigsType = {
   show_contact: true,
   show_git: true,
   show_doc: true,
-  systemTitle: '财富AI',
+  systemTitle: 'SHAREAI',
   authorText: 'Made by AINI Team.',
   limit: {
     exportLimitMinutes: 0

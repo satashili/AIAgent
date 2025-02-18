@@ -37,9 +37,9 @@ const Hero = () => {
               bg: 'myGray.800',
               color: 'white'
             }}
-            onClick={() => window.open('https://caifuai.top/chat/share?shareId=ioqars9pcttt44u3ktmcxjgc', '_blank')}
+            onClick={() => window.open('https://share.fastgpt.in/chat/share?shareId=yqgqu5yo52ne986covsyriqj', '_blank')}
           >
-            资管制度AI助手
+            TRY SHAREAI
           </Button>
         )}
         <Button

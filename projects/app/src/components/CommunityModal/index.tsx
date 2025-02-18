@@ -5,9 +5,9 @@ import { useTranslation } from 'react-i18next';
 import Markdown from '../Markdown';
 
 const md = `
-| 交流微信 |
+| 交流 |
 | -----------------|
-| 一起交流：asd7698fg|
+| 一起交流|
 `;
 
 const CommunityModal = ({ onClose }: { onClose: () => void }) => {
